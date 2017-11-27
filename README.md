@@ -8,3 +8,5 @@
     机制
 2.输入问题
     输入答案
+manifest .appcache 5M
+node Cache-Control:max-age url load Initiator 304 Not Modified

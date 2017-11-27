@@ -1,14 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html manifest="youth.appcache">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--IOS浏览器设置-begin-->
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta content="telephone=no" name="format-detection"/>
     <meta name="apple-mobile-web-app-title" content="youth"/>
     <link rel="apple-touch-icon-precomposed" href="./static/img/light.png"/>    
     <!--IOS浏览器设置-end-->
+    <style>
+      html,body{
+        font-size: 14px;
+      }
+      @media screen and (max-width:380px){
+        html,body{
+          font-size: 18px;
+        }
+      }
+      .title{
+        font-size: 1rem;
+      }
+    </style>
   </head>
   <body>
-      <div>youth</div>
+      <div class="title">youth</div>
+      <img style="width:5rem;" src="./static/img/light.png"/>
   </body>
 </html>
